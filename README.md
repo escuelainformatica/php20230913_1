@@ -1,3 +1,9 @@
+# crear un proyecto de laravel
+Ir a la carpeta de proyectos en el terminal y ejecutar: (cambiando example-app por el nombre de su proyecto)
+```
+composer create-project laravel/laravel example-app
+```
+
 # base de datos
 
 * configurar la base de datos
@@ -170,3 +176,25 @@ Ejecutar en la consola
 php artisan serve
 ```
 y abrir la ruta indicada en el enrutamiento, ej: http://127.0.0.1:8000/listar
+
+# Ejercicio:
+
+* Cree un nuevo proyecto de laravel
+* configure la base de datos (archivo .env) sqlite
+* Cree una base de datos (cree un archivo vacio /database/database.sqlite)
+* Ejecutar migrate:install
+* Creamos la migracion
+* Creamos el modelo
+* Creamos el factory
+* Creamos (o editamos) el seeder.
+* Cremos el controlador.
+* Editamos el enrutamiento
+* Creamos la vista.
+
+Cree un proyecto con un modelo llamado Libros con los siguientes campos
+* Id
+* Titulo
+* Autor
+* Precio
+* NumPagina
+Y luego muestrelo en la pagina web.
